@@ -7,3 +7,9 @@ add device mk:
 PRODUCT_PACKAGES += \
     XiaomiParts
 ```
+and:
+```
+PRODUCT_PACKAGES += \
+    init.camera.rc \
+    init.camera.sh
+```
