@@ -34,3 +34,7 @@ LOCAL_SRC_FILES    := etc/init.camera.sh
 LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_EXECUTABLES)
 include $(BUILD_PREBUILT)
 ```
+add `device/xiaomi/daisy/rootdir/init.qcom.rc` :
+```
+import /vendor/etc/init/hw/init.camera.rc
+```
