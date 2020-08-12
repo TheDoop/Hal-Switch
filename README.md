@@ -6,7 +6,7 @@ completely https://github.com/TogoFire 's work. I just made repository for easy 
 2. `curl https://raw.githubusercontent.com/TogoFire/dt_xiaomi_daisy/xq/rootdir/etc/init.camera.sh --output device/xiaomi/daisy/rootdir/etc/init.camera.sh`
 3. `curl https://raw.githubusercontent.com/TogoFire/dt_xiaomi_daisy/xq/rootdir/etc/init.camera.rc --output device/xiaomi/daisy/rootdir/etc/init.camera.rc`
 4. `mkdir device/xiaomi/daisy/vndk/etc`
-5. `cp device/xiaomi/daisy/rootdir/etc/init.camera.sh device/xiaomi/daisy/vndk/etc/init.camera.sh`
+5. `cp device/xiaomi/daisy/rootdir/etc/init.camera.sh device/xiaomi/daisy/vndk/etc/init.camera.sh && cp device/xiaomi/daisy/rootdir/etc/init.camera.rc device/xiaomi/daisy/vndk/etc/init.camera.rc`
 
 add device mk:
 ```
